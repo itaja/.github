@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/itaja-lockup-dark.svg">
-  <img alt="Itaja" src="assets/itaja-lockup-light.svg" width="180">
+  <img alt="itaja" src="assets/itaja-lockup-light.svg" width="200">
 </picture>
 
 ### Get paid in Africa without a local company.
