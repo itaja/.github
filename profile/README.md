@@ -10,6 +10,8 @@
 
   <p><a href="https://getitaja.com">Website</a> · <a href="https://docs.getitaja.com">Documentation</a> · <a href="https://api.getitaja.com/api/references">API reference</a></p>
 
+  <p><a href="https://status.getitaja.com"><img alt="Itaja status" src="https://incidents.betterstack.com/status-badges/v1/monitor/31uqr.svg"></a></p>
+
   <p><sub>Private beta, opening soon — join the waiting list on <a href="https://getitaja.com">getitaja.com</a>.</sub></p>
 </div>
 
