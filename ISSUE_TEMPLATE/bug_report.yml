@@ -1,0 +1,44 @@
+name: Bug report
+description: Something does not behave as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security issue?** Do not file it here — see [SECURITY.md](https://github.com/itaja/.github/blob/main/SECURITY.md).
+        Never paste an API key, a webhook secret or customer data.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The smallest sequence that shows the problem. Include the request and response (status, `code`) with keys removed.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - sandbox
+        - live
+        - not applicable
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package or skill version
+      placeholder: "@itaja/node 0.3.0, itaja-skills v1.0.0…"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        Runtime and version, framework, OS
